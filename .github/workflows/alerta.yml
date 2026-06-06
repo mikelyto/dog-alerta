@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar código
+      - name: Descargar código necesario
         uses: actions/checkout@v5
 
       - name: Configurar Python
