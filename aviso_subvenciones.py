@@ -71,7 +71,7 @@ def check_dog():
                 print(f"⚠️ Error en sección: {e}")
                 continue
 
-        print("ℹ️ No se encontró la keyword")
+        print("ℹ️ No se ha encontrado la keyword")
         return None, None
 
     except Exception as e:
